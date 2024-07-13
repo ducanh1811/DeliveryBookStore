@@ -1,0 +1,17 @@
+
+export const PRIMARY_COLOR = "#FCA802"
+export const YELLOW_COLOR = "#AAAAAA"
+export const BLUE_COLOR = "#2489F4"
+export const PINK_COLOR = "#fcddef"
+export const BORDER_COLOR = "#CDCFD0"
+export const GREEN_COLOR = '#00A651';
+export const RED_COLOR = "#FF0000"
+export const SMALL_COLOR = "#C4C4C4"
+export const DARK_COLOR = "#000000"
+export const LIGHT_COLOR = "#FFFFFF"
+export const GRAY_COLOR = "#F2F2F2"
+export const ORANGE_COLOR = "#FFA500"
+export const BLACK_COLOR = "#000000"
+export const WHITE_COLOR = "#FFFFFF"
+export const TEXT_COLOR = "#000000"
+export const TEXT_COLOR_SECONDARY = "#666666"
