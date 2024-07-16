@@ -2,7 +2,7 @@ const isDeploy = process.env.NODE_ENV === 'production';
 //const isDeploy = true;
 
 const wifiPort = {
-  teleWifi: '192.168.16.147',
+  teleWifi: '192.168.181.147',
 };
 
 export const API_URL =

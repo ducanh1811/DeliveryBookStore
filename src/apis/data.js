@@ -91,7 +91,10 @@ export const apiGetStatusOrderForMe = async token => {
 };
 
 export const apiGetCityOrderForMe = async (page, token, city) => {
-  // console.log('getAuthInstance(token)', page, token, city);
+  console.log('getAuthInstance(token)', page, token, city);
+  if (city == 'Ho Chi Minh City' || city == 'Ho Chi Minh') {
+    city = 'Hồ Chí Minh';
+  }
   try {
     const response = await getAuthInstance(token).post(
       `/orders/filter?status=CHOXACNHAN&city=${city}&page=${page}&limit=10`,

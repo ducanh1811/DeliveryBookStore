@@ -225,7 +225,7 @@ const ItemFlatList = memo(({item, index, onRefresh}) => {
                 : getDetailTimeInVietnam(item?.updatedAt)}
             </Text>
           )}
-          <Text style={tw`text-[#666] text-sm`}>
+          <Text style={tw`text-[#666] text-sm`} numberOfLines={1}>
             Địa chỉ:{' '}
             {item?.address == null ? '[không có thông tin]' : item?.address} ...
           </Text>
